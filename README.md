@@ -1,8 +1,8 @@
-Backend Ledger
+# Backend Ledger
 
-A backend ledger management system built using Node.js, Express.js, and MongoDB.
+A backend ledger management system built using **Node.js, Express.js, and MongoDB**.
 
-Features
+## Features
 
 - User registration and login
 - JWT authentication
@@ -13,7 +13,7 @@ Features
 - Protected routes
 - MongoDB database
 
-Tech Stack
+## Tech Stack
 
 - Node.js
 - Express.js
@@ -23,8 +23,9 @@ Tech Stack
 - bcrypt
 - Nodemailer
 
-Project Structure
+## Project Structure
 
+```text
 backend-ledger/
 ├── config/
 ├── controllers/
@@ -33,28 +34,45 @@ backend-ledger/
 ├── routes/
 ├── services/
 ├── server.js
-└── package.json
+├── package.json
+└── README.md
+```
 
-Setup
+## Setup
 
+### Clone the Repository
+
+```bash
 git clone https://github.com/yashwanth-gattu005/backend-ledger.git
 cd backend-ledger
+```
+
+### Install Dependencies
+
+```bash
 npm install
+```
 
-Create a ".env" file with the required environment variables and start the server:
+### Environment Variables
 
-npm run dev
+Create a `.env` file in the root directory:
 
-Environment Variables
-
+```env
 PORT=5000
 MONGODB_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
+```
 
-Add the required email configuration if using the email functionality.
+Add the required email configuration for the email functionality.
 
-Author
+### Run the Application
 
-Yashwanth Gattu
+```bash
+npm run dev
+```
 
-"GitHub" (https://github.com/yashwanth-gattu005)
+## Author
+
+**Yashwanth Gattu**
+
+GitHub: https://github.com/yashwanth-gattu005
