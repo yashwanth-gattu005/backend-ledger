@@ -27,12 +27,13 @@ A backend ledger management system built using **Node.js, Express.js, and MongoD
 
 ```text
 backend-ledger/
-├── config/
-├── controllers/
-├── middleware/
-├── models/
-├── routes/
-├── services/
+├── src/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   └── services/
 ├── server.js
 ├── package.json
 └── README.md
